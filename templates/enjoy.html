@@ -1,0 +1,10 @@
+{% extends "common.html" %}
+{% block content %}
+<ul id="navigation">
+    {% for item in arr %}
+        <li><h3>{{ item }}</h3></li>
+    {% endfor %}
+    </ul>
+<a href="{{url}}"><h5>For More Movies:</h5></a> 
+{% endblock %}
+
